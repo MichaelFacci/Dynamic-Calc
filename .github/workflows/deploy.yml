@@ -22,6 +22,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: .  # The repo root, change if your site files are in a subfolder
+          name: dynamic-calc-artifact
 
       - name: Deploy to GitHub Pages
         id: deployment
