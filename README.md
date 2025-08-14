@@ -1,7 +1,7 @@
 <img width="1786" alt="Screen Shot 2024-02-20 at 2 00 43 PM" src="https://github.com/hzla/Dynamic-Calc/assets/5680299/1f8cb136-dfb7-4482-88fc-98ba0b0a458b">
 
 # Dynamic Calc
-A showdown calculator fork with dynamic data source loading and expanded features for nuzlockes
+A showdown calculator fork with dynamic data source loading and expanded features for nuzlockes.
 
 ## Features for Nuzlockers
   
