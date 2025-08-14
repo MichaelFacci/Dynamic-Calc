@@ -14,16 +14,16 @@ jobs:
       id-token: write
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
+      # Upload your site files as artifact
       - name: Upload site files
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
-          path: .  # The repo root, change if your site files are in a subfolder
-          name: dynamic-calc-artifact
+          path: .  # Change if your site files are in a subfolder like "public"
 
+      # Deploy artifact to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
