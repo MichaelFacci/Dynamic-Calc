@@ -2595,7 +2595,8 @@ $(document).ready(function() {
     "17af2cc6ec56f8f293bd": "Parallel Emerald Hard",
     "a0e5b4fa06d9e7762210": "Parallel Emerald Normal",
     "0d8b65ba6796bf2b3d4c": "White 2 Kaizo",
-    "bb8579a3798fd63b429d": "Royal Saphire"
+    "bb8579a3798fd63b429d": "Royal Saphire",
+	"0a37ed78da4e6078ed52": "Garbage Gold Deluxe"
     }
 
     MASTERSHEETS = {
@@ -3140,3 +3141,4 @@ $('.set-selector, .move-selector').on("select2-close", function () {
         poks.removeClass('killer')
     })
 })
+
