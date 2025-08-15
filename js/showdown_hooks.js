@@ -2678,6 +2678,16 @@ $(document).ready(function() {
                     loadDataSource(npoint_data)
                     final_type_chart = construct_type_chart()
 
+if (mechanics == "hge") {
+                includes = npoint_data["includes"]
+                ac_encs = npoint_data["encs"]
+                sav_pok_names = includes["poks"]
+                sav_move_names = includes["moves"] 
+                sav_item_names = includes["items"]
+                sav_pok_growths = includes["growths"]
+                sav_abilities = includes["abilities"]
+            }
+
                     setTimeout(function() {
                         if (localStorage["left"]) {
                             var set = localStorage["right"]
@@ -3139,5 +3149,6 @@ $('.set-selector, .move-selector').on("select2-close", function () {
         poks.removeClass('killer')
     })
 })
+
 
 
