@@ -2627,11 +2627,9 @@ $(document).ready(function() {
             baseGame = "HGSS"
         }
 
-        if (!baseGame) {
-            $('#read-save').hide()
-        } else {
+        
             $('.save-editor-guide').show()
-        }
+        
 
         $('.genSelection').hide()
         $('#rom-title').text(TITLE).show()
@@ -3141,4 +3139,5 @@ $('.set-selector, .move-selector').on("select2-close", function () {
         poks.removeClass('killer')
     })
 })
+
 
