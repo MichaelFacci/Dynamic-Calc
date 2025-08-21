@@ -669,6 +669,7 @@ $(".set-selector").change(function () {
 				if (misc == "Orre") {
 					$('#doubles-format').click()
 				}
+				$("#singles-format").click()
 				// $('#trainer-sprite').attr('src', `./img/${sprite}`)
 				// $('#trainer-sprite').show()
 
